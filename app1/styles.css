@@ -2,6 +2,40 @@
 /* 1. Selectors & Basic Properties - Hero Section */
 /* ================================ */
 
+/* Universal Selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+  font-family: "Poppins", Times, serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Class Selector */
+.hero {
+  padding: 100px;
+}
+
+.hero__title {
+  color: #f5f5f5;
+}
+
+.hero__description {
+  color: #81da76;
+}
+
+/* ID Selector */
+#hero__highlight {
+  color: #dbfbe0;
+}
+
+/* ================================ */
+
 /* ================================ */
 /* 2. Fonts - Features Section */
 /* ================================ */
